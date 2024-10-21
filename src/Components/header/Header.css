@@ -1,0 +1,133 @@
+.header_upper {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 3em;
+  }
+  
+  .header_upper_right {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .language_dropdown {
+    position: absolute;
+    
+    top: 100%;
+    left: 0;
+    background-color: white;
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .language_dropdown li {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .language_dropdown li:hover {
+    background-color: lightgray;
+  }
+  
+  .header_container {
+    background-color: white;
+  }
+  
+  .header_upper {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .selectLanguage {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .selectLanguage span {
+    margin-right: 8px;
+  }
+  
+  .language_dropdown {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: black;
+    color: gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    z-index: 100;
+  }
+  
+  .language_dropdown li {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .language_dropdown li:hover {
+    background-color: lightgray;
+  }
+  
+  .header_lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header_lower_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+  }
+  
+  .header_lower_left h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header_lower_center ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .header_lower_center ul li {
+    cursor: pointer;
+  }
+  
+  .search_item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .search_item input[ type="search"] {
+    border-radius: 7px;
+    border:  solid 1px black;
+  }
+  
+
+  
+  .header_lower_right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  header_lower_right .faHeart {
+    color: gray;
+  }
+  
