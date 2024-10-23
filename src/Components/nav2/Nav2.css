@@ -1,0 +1,123 @@
+
+.nav2_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.nav2_container .nav2_upper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nav2_upper .flashsales {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flashsales h2{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.flashsales .directions_btns{
+    gap: 10px;
+    display: flex;
+    margin-right: 4rem;
+}
+
+.corner_contents{
+  display: flex;
+
+
+}
+
+.corner_contents span {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: red;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.countdown_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 302px;
+    height: 50px;
+    margin-left: -20em;
+  }
+  
+  .countdown_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .label {
+    font-size: 15px;
+    color: #000;
+    font-weight: 900;   
+  }
+  
+  .separator {
+    font-size: 40px;
+    color: #000;
+    padding: 0 5px;
+  }
+
+/* for products*/
+.nav2_lower{
+  display: flex;
+  width: 100%;
+  overflow: scroll;
+  position: relative;
+  gap: 30px;
+}
+
+.feedback_icons{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 100px;
+  color: #fff;
+  z-index: 7;
+  padding-top: -40px;
+  
+}
+
+
+
+.product_containers {
+  width: 270px;
+  height: 350px;
+}
+
+.product_containers .prices {
+  color: red;
+  font-weight: 600;
+}
+
+.product1_details{
+  background: #fff;
+}
+
+.product1_details p{
+  color: red;
+}
+
+.product1_details p span {
+  color: #333;
+}
