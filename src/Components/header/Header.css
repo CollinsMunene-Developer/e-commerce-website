@@ -10,7 +10,7 @@
   .header_upper_right {
     position: relative;
     cursor: pointer;
-  }
+  } 
   
   .language_dropdown {
     position: absolute;
@@ -22,6 +22,7 @@
     list-style-type: none;
     margin: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
   }
   
   .language_dropdown li {
@@ -35,14 +36,19 @@
   
   .header_container {
     background-color: white;
-  }
+    border-bottom: solid 1px gray;  
+  } 
   
   .header_upper {
     display: flex;
     justify-content: space-between;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 10px;  
+    gap: 1em;
+  }
+  .header_upper p {
+    padding-left: 30em;
   }
   
   .selectLanguage {
@@ -130,4 +136,18 @@
   header_lower_right .faHeart {
     color: gray;
   }
+
+  .header_lower_center ul li {
+    position: relative;
+    cursor: pointer;  
+  }
+
+
+
+
+  .header_lower_center ul li:hover {
+    color: black;
+    font-weight: 900;
+  }
+
   

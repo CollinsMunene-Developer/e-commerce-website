@@ -1,0 +1,110 @@
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+
+.resources {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.resources .resources_right .iphone{
+    display: flex;
+    margin: 20px 20px;
+}
+
+.iphone span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.resources_right img {
+    width: 40px;
+    height: 49px;
+}
+
+.resources_right .right_header{
+    font-size: 2.9em;
+    margin-left: 0.5em;
+
+}
+
+.shopNow_path {
+    width: 143px;
+    gap: 10px;
+    height: 28px;
+    display: flex;
+    padding-top: 4em;
+}
+
+
+.shopNow_path span {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.shopNow_path img{
+    height: 24px;
+    width: 24px;
+    margin-top: 7px;
+}
+
+.resources .resources_left {
+    padding-left: 10em;
+}
+
+/* for nav1 content */
+
+.Nav_contents {
+    width: 217px ; 
+    height: 344px;
+    border-right:  solid 1px black;
+    padding-top: 4em;
+}
+
+.Nav_contents ul {
+    list-style: none;
+}
+.Nav_contents ul  li a{
+    text-decoration: none;
+    gap: 20px;
+}
+.Nav_contents ul  a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.loading-container {
+    display: flex;
+    gap: 10px;  
+    padding-left: 10em;
+    margin-bottom: 10px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    animation: slide 1s infinite;
+}
+
+.dot.active {
+    background-color: white ;
+}
+
